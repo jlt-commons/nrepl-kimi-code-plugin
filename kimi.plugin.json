@@ -1,0 +1,22 @@
+{
+  "name": "jolt-nrepl",
+  "version": "0.1.0",
+  "description": "Persistent Jolt nREPL evaluation for Kimi Code",
+  "skills": "./skills/",
+  "sessionStart": {
+    "skill": "jolt-nrepl"
+  },
+  "interface": {
+    "displayName": "Jolt nREPL",
+    "shortDescription": "Evaluate code in a persistent Jolt nREPL session"
+  },
+  "mcpServers": {
+    "jolt": {
+      "command": "jolt",
+      "args": ["run", "-m", "jolt-nrepl.server"],
+      "cwd": "./",
+      "startupTimeoutMs": 120000,
+      "toolTimeoutMs": 310000
+    }
+  }
+}
