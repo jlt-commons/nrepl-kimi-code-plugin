@@ -4,7 +4,7 @@
                          :git/tag "v0.4.0"
                          :git/sha "16558b920864e5302a5c1433a78f977bbb64a9d1"}
         jolt-lang/time {:git/url "https://github.com/jolt-lang/time"
-                        :git/sha "19bf6a7f571d173e432f1ac26a2b5ed5830ef1cf"}
+                        :git/sha "80e5fc22d9ddd8ee2f2f525580fbc643d0ecba4c"}
         org.clojure/data.json {:mvn/version "2.5.0"}}
  :aliases {:test {:extra-paths ["test"]
                   :main-opts ["-m" "jolt-nrepl.test-runner"]}}}
